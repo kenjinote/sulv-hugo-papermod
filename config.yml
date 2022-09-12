@@ -1,4 +1,4 @@
-baseURL: https://www.sulvblog.cn # 绑定的域名
+baseURL: https://jiyu.blog # 绑定的域名
 languageCode: ja-jp # en-us
 title: Jiyu's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics:  # 谷歌统计
-# Copyright: Sulv
+# Copyright: Jiyu
 
 paginate: 15    # 首页每页显示的文章数
 
