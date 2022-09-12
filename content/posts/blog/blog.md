@@ -1,34 +1,33 @@
 ---
 title: "Blog"
 date: 2022-05-05T00:18:23+08:00
-lastmod: 2022-05-05T00:18:23+08:00
-author: ["Sulv"]
+lastmod: 2022-09-12T11:55:09+09:00
+author: ["Jiyu"]
 keywords: 
 - 
 categories: 
 - 
 tags: 
 - blog
-description: ""
+description: "説明"
 weight:
 slug: ""
 draft: false # 是否为草稿
 comments: true
 reward: true # 打赏
 mermaid: true #是否开启mermaid
-showToc: true # 显示目录
-TocOpen: true # 自动展开目录
-hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
-disableShare: true # 底部不显示分享栏
-showbreadcrumbs: true #顶部显示路径
+showToc: true # 目次を表示する
+TocOpen: true # 目次を開いておく
+hidemeta: false # 作成日時や更新日時、文字数等の情報を非表示にする
+disableShare: false # シェアボタンを非表示にする
+showbreadcrumbs: true #パンくずリストを表示する
 cover:
     image: "img.png" #图片路径例如：
     caption: "" #图片底部描述
     alt: ""
     relative: true
 ---
-
-test
+１ああ
 
 
 

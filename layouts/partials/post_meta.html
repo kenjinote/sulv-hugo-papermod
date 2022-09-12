@@ -1,6 +1,6 @@
 {{- $scratch := newScratch }}
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "创建:&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- $scratch.Add "meta" (slice (printf "作成:&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
 {{- end }}
 
 {{- if (.Param "ShowLastMod") -}}
@@ -8,11 +8,11 @@
 {{- end }}
 
 {{- if (.Param "ShowWordCounts") -}}
-{{- $scratch.Add "meta" (slice (default (printf "字数:&nbsp;%d字" .WordCount))) }}
+{{- $scratch.Add "meta" (slice (default (printf "文字数:&nbsp;%d字" .WordCount))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (default (printf "时长:&nbsp;%d分钟" .ReadingTime))) }}
+{{- $scratch.Add "meta" (slice (default (printf "この記事は約%d分ぐらいで読めます" .ReadingTime))) }}
 {{- end }}
 
 {{- with (partial "author.html" .) }}
