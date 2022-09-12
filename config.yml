@@ -1,6 +1,6 @@
 baseURL: https://www.sulvblog.cn # 绑定的域名
-languageCode: zh-cn # en-us
-title: Sulv's Blog
+languageCode: ja-jp # en-us
+title: Jiyu's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -91,7 +91,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: ""
-    author: Sulv
+    author: Jiyu
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto  # defaultTheme: light or  dark 
@@ -134,7 +134,7 @@ params:
           url: "index.xml"
 
     label:
-        text: "Sulv's Blog"
+        text: "Jiyu's Blog"
         icon: "img/Q.gif"
         iconHeight: 35
 
