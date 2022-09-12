@@ -29,26 +29,25 @@ defaultContentLanguage: en # 最顶部首先展示的语言页面
 defaultContentLanguageInSubdir: true
 
 languages:
-    en:
-      languageName: "English"
+    ja:
+      languageName: "Japanese"
       weight: 1
       profileMode:
         enabled: true
-        title: (〃'▽'〃)
-        subtitle: 
-        # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+        title: ブログタイトル
+        subtitle: "サブタイトル"
         imageUrl: "img/Q.gif"
         imageTitle: 
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 🧱 建站
+          - name: にっき
             url: posts/blog
-          - name: 👨🏻‍💻 技术
+          - name: せいかつ
             url: posts/tech
-          - name: 📕 阅读
+          - name: ぎじゅつ
             url: posts/read
-          - name: 🏖 生活
+          - name: てすと
             url: posts/life
       menu:
         main:
